@@ -4,9 +4,9 @@ import java.awt.Color
 import java.awt.image.BufferedImage
 
 object Main extends App {
-  println("Starting")
+  println("Starting...")
   val canvas = new BufferedImage(700, 700, BufferedImage.TYPE_INT_RGB)
-  val g = canvas.getGraphics
+  val g      = canvas.getGraphics
 
   val random = scala.util.Random
 
